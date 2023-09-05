@@ -1,0 +1,47 @@
+@font-face {
+    font-family: Vazir;
+    src: url('Vazir.eot');
+    src: url('Vazir.eot?#iefix') format('embedded-opentype'),
+         url('Vazir.woff2') format('woff2'),
+         url('Vazir.woff') format('woff'),
+         url('Vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    font-family: vazir;
+    box-sizing: border-box;
+    direction: rtl;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+}
+img{
+    width: 190px;
+    border-radius: 100%;
+}
+#Text{
+    width: 700px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+}
+@media screen {
+    @media only screen and (max-width: 700px) {
+        #Text {
+          width: 100%;
+        }
+      }
+}
